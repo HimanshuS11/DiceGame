@@ -13,14 +13,30 @@
 body {
   background-color: #393E46;
 }
-
-h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+.c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.buton {
+  font-family: 'Lobster', cursive;
+  font-size: 4rem;
+  color: #4ECCA3;
+  border-radius: 20%;
+} 
+ h1{
+  text-align: center;
+  color: chartreuse;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+}
+.buton:hover {background-color: #3e8e41}
+.buton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 
 p {
   font-size: 2rem;
